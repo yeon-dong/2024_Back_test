@@ -20,3 +20,8 @@ jobs:
         run: |
           echo "git hello"
           echo "hello github action"
+
+      - name: github action
+        run: |
+          echo $GITHUB_SHA
+          echo $GITHUB_REPOSITORY
